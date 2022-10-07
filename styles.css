@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: scroll;
+  font-family: Roboto, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    flex:1;
+}
+
+img {
+  width: 600px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  color:blanchedalmond;
+  text-decoration: none;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px 15px;
+}
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 107, 60);
+}
+
+.link-left, .links-right{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+
+.top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap:wrap;
+    background-color: rgb(117, 189, 117);
+}
+.kepler{
+    display: flex;
+    align-self:flex-end;
+    height: 250px;
+    width: auto;
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 121, 80);
+}
+.footer{
+    position: fixed;  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(53, 107, 60);
+    color:blanchedalmond;
+    position: fixed;
+    padding:10px;
+}
