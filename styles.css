@@ -34,7 +34,6 @@ button {
   padding: 10px 15px;
 }
 
-
 .header{
     display:flex;
     justify-content: space-between;
@@ -48,26 +47,71 @@ button {
     gap:20px;
 }
 
-.top{
+.container{
     display:flex;
-    flex-direction: column;
+    flex-direction: row wrap;
     align-items: center;
-    flex-wrap:wrap;
-    background-color: rgb(117, 189, 117);
-}
-.kepler{
-    display: flex;
-    align-self:flex-end;
-    height: 250px;
-    width: auto;
+    background-color: rgb(117, 189, 117); 
+    padding: 50px;
 }
 
-.books{
+.left-text{
+  display: flex;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+}
+
+.left-text h3{
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.left-text p{
+  font-size: 18px;
+}
+
+.right-image{
+  display: flex;
+  align-self:flex-end;
+  width: 450px;
+  height: 200px;
+}
+
+.left-text, .right-image{
+  display:flex;
+  align-items: space-between;
+  gap:20px;
+}
+
+.kepler{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.button-one{
+  font-size: 18px;
+  background-color: gray;
+  font-weight: bold;
+
+}
+
+
+.row{
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background-color: blueviolet;
 }
+.cover{
+  width: 100px;
+  height: 100px;
+}
+
 .quote{
     display:flex;
     justify-content: center;
