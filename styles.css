@@ -87,6 +87,7 @@ button {
   align-self: flex-start;
   flex-wrap: wrap;
   width: 350px;
+  margin:5px;
 }
 
 .left-text h3{
@@ -156,23 +157,28 @@ button {
 .quote{
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    background-color:#E8D9c2;
+    background-color:sienna;
+    color:beige;
     padding:5px;
 
 }
 
-.quote p{
+.block{
+  display:flex;
+  flex-wrap: wrap;
+  align-self: center;
+  max-width: 800px;
+  flex-grow: 1;
+}
+
+.block p{
   font-size: 36px;
   font-style: italic;
 }
 
-.quote h3{
-  display: flex;
-  align-self: flex-end;
-  padding-right:350px
+.block h3{
+margin-left: auto;
 }
 
 
@@ -185,7 +191,7 @@ button {
   font-size: 30px;
   width: 30em;
   padding: 20px;
-  margin: 20px;
+  margin: 50px;
   border-radius: 1rem;
 }
 
@@ -218,12 +224,11 @@ button {
 }
 
 .footer{
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background-color: #606c38; 
-    color:beige;
-    margin: 0;
-    padding:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #606c38; 
+  color:beige;
+  margin: 0;
+  padding:10px;
 }
